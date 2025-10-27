@@ -94,6 +94,11 @@ while (true){
     }
     else if (opcion == 4){
         alert("gracias por jugar");
+        break;
+    }
+    else{
+        alert("opción inválida por favor elige de nuevo.")
+        continue;
     }
     break;
 }
